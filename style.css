@@ -186,3 +186,94 @@ h1, h2, h3, p, ul {
     max-width: 440px;
     margin: 0 auto;
 }
+
+
+
+
+
+.card {
+    padding-top: 90px;
+}
+
+.card__wrap {
+    display: flex;
+    align-items: center;
+}
+
+.card__image {
+    display: none;
+    max-width: 300px;
+    margin: 0 70px 0 0;
+}
+
+.card__image.active {
+    display: block;
+}
+
+.card-details__title {
+    display: none;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.card-details__title.active {
+    display: block;
+}
+
+.card-details__wrap-btn:not(:last-child) {
+    margin-right: 24px;
+}
+
+.card-detail__buttons {
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    white-space: nowrap;
+}
+
+.card-detail__change {
+    border: 1px solid transparent;
+    background-color: transparent;
+    padding: 11px 16px;
+}
+
+.card-detail__change.active {
+    color: #FE3B3B;
+    border-bottom: 1px solid #FE3B3B;
+}
+
+.card-details__description {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 20px;
+}
+
+.card-details__description-list {
+    margin-bottom: 18px;
+}
+
+.card-details__footer {
+    display: flex;
+    align-items: center;
+}
+
+.card-details__price {
+    min-width: 120px;
+    font-weight: 700;
+    font-size: 24px;
+    margin-right: 60px;
+}
+
+.card-details__link-characteristics {
+    display: block;
+    color: #4F80FF;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 60px;
+}
+
+.card-details__button_buy {
+    margin-right: 28px;
+}
